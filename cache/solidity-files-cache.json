@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/fic2linux/Crypto/Debond/eventBonds/contracts/IERC3475.sol": {
+      "lastModificationDate": 1667916132079,
+      "contentHash": "1a7e48261a7894feefd67eaf7163cfb2",
+      "sourceName": "contracts/IERC3475.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC3475"
+      ]
+    },
+    "/home/fic2linux/Crypto/Debond/eventBonds/contracts/ERC3475.sol": {
+      "lastModificationDate": 1668020108297,
+      "contentHash": "76d56fed1bc71c449d2e78063b76bb01",
+      "sourceName": "contracts/ERC3475.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC3475.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC3475"
+      ]
+    }
+  }
+}
